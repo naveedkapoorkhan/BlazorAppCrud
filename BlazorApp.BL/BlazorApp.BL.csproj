@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk.Web">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>net8.0</TargetFramework>
@@ -7,11 +7,17 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Folder Include="Repositories\" />
+    <Folder Include="Services\" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="9.0.8" />
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\BlazorAppCrud.ServiceDefaults\BlazorAppCrud.ServiceDefaults.csproj" />
+    <ProjectReference Include="..\BlazerApp.Database\BlazorApp.Database.csproj" />
+    <ProjectReference Include="..\BlazorApp.Model\BlazorApp.Model.csproj" />
   </ItemGroup>
 
 </Project>
