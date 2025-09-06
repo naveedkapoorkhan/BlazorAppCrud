@@ -8,6 +8,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\BlazorApp.BL\BlazorApp.BL.csproj" />
+    <ProjectReference Include="..\BlazerApp.Database\BlazerApp.Database.csproj" />
     <ProjectReference Include="..\BlazorApp.Model\BlazorApp.Model.csproj" />
     <ProjectReference Include="..\BlazorAppCrud.ServiceDefaults\BlazorAppCrud.ServiceDefaults.csproj" />
   </ItemGroup>

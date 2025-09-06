@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <Sdk Name="Aspire.AppHost.Sdk" Version="9.3.1" />
 
@@ -11,8 +11,16 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\BlazerApp.Database\BlazerApp.Database.csproj" />
+    <ProjectReference Include="..\BlazerApp.Database\BlazerApp.Database.csproj" />
+    <ProjectReference Include="..\BlazorApp.BL\BlazorApp.BL.csproj" />
+    <ProjectReference Include="..\BlazerApp.Database\BlazerApp.Database.csproj" />
+    <ProjectReference Include="..\BlazorApp.Model\BlazorApp.Model.csproj" />
     <ProjectReference Include="..\BlazorAppCrud.ApiService\BlazorAppCrud.ApiService.csproj" />
+    <ProjectReference Include="..\BlazorAppCrud.ServiceDefaults\BlazorAppCrud.ServiceDefaults.csproj" />
     <ProjectReference Include="..\BlazorAppCrud.Web\BlazorAppCrud.Web.csproj" />
+	
+	 
   </ItemGroup>
 
   <ItemGroup>

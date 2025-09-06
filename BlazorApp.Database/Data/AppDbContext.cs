@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
 using BlazorApp.Model.Entities;
 
-namespace BlazorApp.Database.Data
+namespace BlazerApp.Database.Data
 {
     public class AppDbContext : DbContext
     {
